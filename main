@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("poem.txt")
+	file, err := os.Open("stih.txt")
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
